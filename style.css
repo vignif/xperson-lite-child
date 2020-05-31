@@ -16,6 +16,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+p{
+  color:#555;
+}
 .container {
   flex: 1 0 auto;
 }
