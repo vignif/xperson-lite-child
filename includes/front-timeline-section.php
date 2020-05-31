@@ -10,7 +10,7 @@ if( $xpersonlite_timeline_section == 'on') { ?>
 		<?php $count = 2; ?>
 		<div class="resume-section">
 			<?php // The Query
-			$the_query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 3, 'category_name' => $xpersonlite_timeline_category ) );
+			$the_query = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 10, 'category_name' => $xpersonlite_timeline_category ) );
 			if( $the_query->have_posts() ) { ?>
 			<div class="row no-margin">
 				<div class="col-md-12">
