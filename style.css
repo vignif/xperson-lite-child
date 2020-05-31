@@ -1,0 +1,41 @@
+/*
+Theme Name: xperson-lite child
+Theme URL: http://www.francescovigni.com
+Description: xperson-lite Child
+Theme Author: Francesco Vigni
+Author URL: http://www.francescovigni.com
+Template: xperson-lite
+Version: 1.0.0
+Text Domain: xperson-lite-child
+*/
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+
+.wp-block-media-text {
+  padding: 0 0 2em 0;
+}
+
+.wp-block-media-text .wp-block-media-text__content{
+  padding: 0 2em 0 0;
+}
+
+.timeline-content {
+  padding-top: 0;
+}
+
+.timeline-content {
+  background-color: white !important;
+  color: inherit !important;
+}
