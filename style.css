@@ -78,3 +78,13 @@ p{
 .timeline-panel{
   visibility: visible !important;
 }
+
+.page-template-full-width .content-area {
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.page-template-full-width .site {
+margin:0px;
