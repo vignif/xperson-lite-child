@@ -78,7 +78,7 @@ global $xpersonlite; ?>
 					<?php } if( isset($xpersonlite['github-url']) && $xpersonlite['github-url'] != '' ) { ?>
 						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['github-url'] ); ?>"><i class="fa fa-github"></i></a></li>
 					<?php } if( isset($xpersonlite['xing-url']) && $xpersonlite['xing-url'] != '' ) { ?>
-						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['xing-url'] ); ?>"><i class="fa fa-xing"></i></a></li>
+						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['xing-url'] ); ?>"><i class="fa fa-github"></i></a></li>
 					<?php } ?>
 				</ul>
 			</div> <!-- /.social-icons -->
