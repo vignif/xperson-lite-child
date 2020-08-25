@@ -58,6 +58,8 @@ p{
   height: -moz-available;          /* WebKit-based browsers will ignore this. */
    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
    height: fill-available;
+   min-height: -webkit-fill-available;
+}
 }
 
 #home:before{
@@ -67,14 +69,14 @@ p{
 }
 
 
-.timeline-content::after{
+/* .timeline-content::after{
   z-index: 1;
 }
 
 .timeline-content{
   transition: visibility 0 linear .75s;
 
-}
+} */
 .timeline-panel{
   visibility: visible !important;
 }
