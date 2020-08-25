@@ -67,8 +67,8 @@ global $xpersonlite; ?>
             <li class="hex"><a href="<?php echo esc_url( $xpersonlite['github-url'] ); ?>"><i class="fa fa-github"></i></a></li>
 					<?php } if( isset($xpersonlite['facebook-url']) && $xpersonlite['facebook-url'] != '' ) { ?>
 						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['facebook-url'] ); ?>"><i class="fa fa-facebook"></i></a></li>
-					<?php } if( isset($xpersonlite['behance-url']) && $xpersonlite['behance-url'] != '' ) { ?>
-						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['behance-url'] ); ?>"><i class="fa fa-behance"></i></a></li>
+					<?php } if( isset($xpersonlite['twitter-url']) && $xpersonlite['twitter-url'] != '' ) { ?>
+						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['twitter-url'] ); ?>"><i class="fa fa-twitter"></i></a></li>
 					<?php } if( isset($xpersonlite['dribbble-url']) && $xpersonlite['dribbble-url'] != '' ) { ?>
 						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['dribbble-url'] ); ?>"><i class="fa fa-dribbble"></i></a></li>
 					<?php } if( isset($xpersonlite['pinterest-url']) && $xpersonlite['pinterest-url'] != '' ) { ?>
