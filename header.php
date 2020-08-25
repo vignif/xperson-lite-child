@@ -63,27 +63,18 @@ global $xpersonlite; ?>
 				<ul class="social-list-inline">
 					<?php if( isset($xpersonlite['linkedin-url']) && $xpersonlite['linkedin-url'] != '' ) { ?>
 						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['linkedin-url'] ); ?>"><i class="fa fa-linkedin"></i></a></li>
-
           <?php } if( isset($xpersonlite['github-url']) && $xpersonlite['github-url'] != '' ) { ?>
             <li class="hex"><a href="<?php echo esc_url( $xpersonlite['github-url'] ); ?>"><i class="fa fa-github"></i></a></li>
-
 					<?php } if( isset($xpersonlite['facebook-url']) && $xpersonlite['facebook-url'] != '' ) { ?>
 						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['facebook-url'] ); ?>"><i class="fa fa-facebook"></i></a></li>
-
 					<?php } if( isset($xpersonlite['behance-url']) && $xpersonlite['behance-url'] != '' ) { ?>
 						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['behance-url'] ); ?>"><i class="fa fa-behance"></i></a></li>
-
 					<?php } if( isset($xpersonlite['dribbble-url']) && $xpersonlite['dribbble-url'] != '' ) { ?>
 						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['dribbble-url'] ); ?>"><i class="fa fa-dribbble"></i></a></li>
-
 					<?php } if( isset($xpersonlite['pinterest-url']) && $xpersonlite['pinterest-url'] != '' ) { ?>
 						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['pinterest-url'] ); ?>"><i class="fa fa-pinterest"></i></a></li>
-
 					<?php } if( isset($xpersonlite['google-plus-url']) && $xpersonlite['google-plus-url'] != '' ) { ?>
 						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['google-plus-url'] ); ?>"><i class="fa fa-google-plus"></i></a></li>
-
-
-
 					<?php } if( isset($xpersonlite['xing-url']) && $xpersonlite['xing-url'] != '' ) { ?>
 						<li class="hex"><a href="<?php echo esc_url( $xpersonlite['xing-url'] ); ?>"><i class="fa fa-xing"></i></a></li>
 					<?php } ?>
