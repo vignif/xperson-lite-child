@@ -58,7 +58,8 @@ p{
   height: -moz-available;          /* WebKit-based browsers will ignore this. */
    height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
    height: fill-available;
-   min-height: -webkit-fill-available;
+   min-height: -webkit-fill-available;/*safari*/
+   min-height: 100vh; /*firefox*/
 }
 }
 
@@ -80,6 +81,16 @@ p{
 .timeline-panel{
   visibility: visible !important;
 }
+
+	.timeline>li.timeline-inverted .timeline-panel::before {
+		right: 100%;
+		border-right: 12px solid #ECECEC;
+		all: 0px;
+		-webkit-transition: all 300ms ease;
+		-moz-transition: all 300ms ease;
+		-o-transition: all 300ms ease;
+		transition: all 300ms ease;
+	}
 
 .page-template-full-width .content-area {
     width: 100%;
