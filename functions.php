@@ -20,5 +20,4 @@ function prefix_enqueue_awesome() {
 	);
 }
 
-require_once( get_template_directory().'/ReduxCore/xperson-config.php' );	// theme options using Redux
 ?>
