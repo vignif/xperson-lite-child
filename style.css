@@ -21,6 +21,10 @@ body {
   color: black !important;
 }
 
+header .header{
+  border-bottom: unset;
+}
+
 p{
   color:black;
 }
