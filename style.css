@@ -56,6 +56,12 @@ blockquote > p{
 font-style: oblique;
 }
 
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  font-style: oblique;
+ color: black !important;
+}
+
 .container {
   flex: 1 0 auto;
 }
