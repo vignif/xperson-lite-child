@@ -25,6 +25,10 @@ p{
   color:black;
 }
 
+#content{
+  padding:2em;
+}
+
 .section-padding{
   padding: 3rem;
 }
