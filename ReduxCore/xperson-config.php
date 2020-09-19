@@ -213,7 +213,7 @@
 			    'default'     => array(
 			        'color'       => '#777',
 			        'font-style'  => '400',
-			        'font-family' => 'Roboto',
+			        'font-family' => 'Lato',
 			        'google'      => true,
 			        'font-size'   => '14px',
 			        'line-height' => '28px'

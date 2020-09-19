@@ -26,6 +26,7 @@ global $xpersonlite; ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<?php endif; ?>
 	<?php wp_head(); ?>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Lato&display=swap" rel="stylesheet">
 
 </head>
 

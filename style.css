@@ -15,14 +15,45 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+
+  font-family: 'Lato', sans-serif !important;
+  font-size: 16px !important;
+  color: black !important;
 }
 
 p{
   color:#555;
 }
 
+.section-padding{
+  padding: 3rem;
+}
+
+blockquote > p{
+  color:white;
+}
+
 @media (max-width: 766px){
 .container .row p { padding: 1em;}
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 90%;
+}
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.navbar-custom{
+  font-family: inherit;
+  /* font-family: 'Lato', sans-serif !important; */
+}
+
+.navbar-custom .navbar-nav > li.current-menu-item > a{
+font-style: oblique;
 }
 
 .container {
