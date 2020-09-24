@@ -12,6 +12,7 @@ Text Domain: xperson-lite-child
 html, body {
   height: 100%;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -21,8 +22,8 @@ body {
   color: black !important;
 }
 
-header .header{
-  border-bottom: unset;
+.header::after{
+  border-bottom: unset !important;
 }
 
 p{
@@ -108,7 +109,7 @@ font-style: oblique;
 }
 }
 
-#home:before{
+#home::before{
   height: -moz-available;          /* WebKit-based browsers will ignore this. */
   height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
   height: fill-available;
@@ -123,19 +124,38 @@ font-style: oblique;
   transition: visibility 0 linear .75s;
 
 } */
+
+@media (max-width: 992px){
+.resume .timeline > li{
+  border-bottom: unset;
+}
+}
+
+
 .timeline-panel{
   visibility: visible !important;
 }
 
-	.timeline>li.timeline-inverted .timeline-panel::before {
-		right: 100%;
-		border-right: 12px solid #ECECEC;
-		all: 0px;
-		-webkit-transition: all 300ms ease;
-		-moz-transition: all 300ms ease;
-		-o-transition: all 300ms ease;
-		transition: all 300ms ease;
-	}
+.timeline-content::after{
+  border: unset !important;
+}
+
+
+
+
+.timeline>li:hover .timeline-content i{
+      /* border-right: 5px inset #009387; */
+      color: #009387;
+}
+
+.timeline>li:hover .timeline-content p{
+  font-style: oblique;
+}
+
+.timeline>li:hover .timeline-content > .timeline-heading > h3{
+  text-decoration: underline;
+}
+
 
 .page-template-full-width .content-area {
     width: 100%;
