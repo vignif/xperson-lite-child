@@ -37,7 +37,7 @@ if( $xpersonlite_timeline_section == 'on') { ?>
 											</div><!-- /timeline-heading -->
 
 											<div class="timeline-body">
-												<?php the_excerpt(); ?>
+												<?php the_content(); ?>
 											</div><!-- /timeline-body -->
 										</div> <!-- /timeline-content -->
 									</div><!-- /timeline-panel -->
@@ -57,7 +57,7 @@ if( $xpersonlite_timeline_section == 'on') { ?>
 											</div><!-- /timeline-heading -->
 
 											<div class="timeline-body">
-												<?php the_excerpt(); ?>
+												<?php the_content(); ?>
 											</div><!-- /timeline-body -->
 										</div> <!-- /timeline-content -->
 									</div> <!-- /timeline-panel -->
