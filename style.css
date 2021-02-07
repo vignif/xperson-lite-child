@@ -155,9 +155,9 @@ font-style: oblique;
       color: #009387;
 }
 
-.timeline>li:hover .timeline-content p{
+/* .timeline>li:hover .timeline-content p{
   font-style: oblique;
-}
+} */
 
 .timeline>li:hover .timeline-content > .timeline-heading > h3{
   text-decoration: underline;
@@ -173,3 +173,4 @@ font-style: oblique;
 
 .page-template-full-width .site {
 margin:0px;
+}
