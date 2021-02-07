@@ -147,9 +147,6 @@ font-style: oblique;
   border: unset !important;
 }
 
-
-
-
 .timeline>li:hover .timeline-content i{
       /* border-right: 5px inset #009387; */
       color: #009387;
@@ -163,6 +160,9 @@ font-style: oblique;
   text-decoration: underline;
 }
 
+.timeline-body>p{ 
+  margin-bottom: 0px;
+}
 
 .page-template-full-width .content-area {
     width: 100%;
