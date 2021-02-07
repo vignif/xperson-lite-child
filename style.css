@@ -174,3 +174,7 @@ font-style: oblique;
 .page-template-full-width .site {
 margin:0px;
 }
+
+.blog-post-wrapper{
+  margin-bottom: 30px;
+}
