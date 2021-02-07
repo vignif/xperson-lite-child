@@ -177,4 +177,6 @@ margin:0px;
 
 .blog-post-wrapper{
   margin-bottom: 30px;
+  border-bottom: unset !important;
+  border: 2px solid black;
 }
