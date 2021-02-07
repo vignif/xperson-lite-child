@@ -119,6 +119,9 @@ font-style: oblique;
   height: fill-available;
 }
 
+#content{
+  max-width: -webkit-fill-available;
+}
 
 /* .timeline-content::after{
   z-index: 1;
