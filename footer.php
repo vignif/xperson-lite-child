@@ -13,10 +13,10 @@ global $xpersonlite;
 		<div class="row">
 			<div class="col-md-12">
 				<div class="credits text-center">
-					Born in <a href="https://en.wikipedia.org/wiki/Forl%C3%AC"><img src="wp-content/uploads/cities/forli.jpg" alt="" />Forli</a> with roots in <a href="https://en.wikipedia.org/wiki/Dominican_Republic"><img src="wp-content/uploads/cities/domrep.jpg" alt="" />Dominican Republic</a>
+					Born in <a href="https://en.wikipedia.org/wiki/Forl%C3%AC" target=" _blank" rel="noopener noreferrer"><img src="wp-content/uploads/cities/forli.jpg" alt="" />Forli</a> with roots in <a href="https://en.wikipedia.org/wiki/Dominican_Republic" target="_blank" rel="noopener noreferrer"><img src="wp-content/uploads/cities/domrep.jpg" alt="" />Dominican Republic</a>
 				</div>
 				<div class="credits text-center">
-					developed in <a href="https://en.wikipedia.org/wiki/Siena"><img src="wp-content/uploads/cities/siena.jpg" alt="" />Siena </a> currently in <a href="https://en.wikipedia.org/wiki/Munich"><img src="wp-content/uploads/cities/munich.jpg" alt="" />Munich</a>
+					developed in <a href="https://en.wikipedia.org/wiki/Siena" target=" _blank" rel="noopener noreferrer"><img src="wp-content/uploads/cities/siena.jpg" alt="" />Siena </a> currently in <a href="https://en.wikipedia.org/wiki/Munich" target="_blank" rel="noopener noreferrer"><img src="wp-content/uploads/cities/munich.jpg" alt="" />Munich</a>
 				</div>
 			</div>
 		</div>
