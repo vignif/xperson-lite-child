@@ -3,12 +3,12 @@ $(document).ready(function() {
         $(this).find("img").removeClass("footer-hide-image");
         $(this).find("img").addClass("footer-show-image");
 
-        console.log('mouseover');
+        // console.log('mouseover');
     })
     $(".footer-wrapper a").mouseout(function() {
         $(this).find("img").removeClass("footer-show-image");
         $(this).find("img").addClass("footer-hide-image");
 
-        console.log('mouseout');
+        // console.log('mouseout');
     })
 });
