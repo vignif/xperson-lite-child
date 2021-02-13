@@ -18,6 +18,10 @@ global $xpersonlite; ?>
 
   gtag('config', 'UA-88361610-2');
 </script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="wp-content/themes/xperson-lite-child/script.js"></script>
+
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
