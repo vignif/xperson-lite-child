@@ -8,3 +8,9 @@ The tool [wp-pusher](https://wppusher.com/) helps me with the automatic deploy o
 Here you can find the implementation:
 
 [www.francescovigni.com](https://www.francescovigni.com)
+
+## License
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+**[GPL license](http://opensource.org/licenses/gpl-license.php)**
