@@ -54,13 +54,13 @@ global $xpersonlite; ?>
 		<!-- Home Section -->
 		<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
 			<div class="intro">
+				<?php if (isset($xpersonlite['skt-header-title']) && $xpersonlite['skt-header-title'] != '') { ?>
+					<h1><?php echo wp_kses($xpersonlite['skt-header-title'], array('span' => array())); ?></h1>
+				<?php } ?>
 				<?php if (isset($xpersonlite['skt-header-subtitle']) && $xpersonlite['skt-header-subtitle'] != '') { ?>
 					<div class="intro-sub">
 						<?php echo esc_html($xpersonlite['skt-header-subtitle']); ?>
 					</div>
-				<?php } ?>
-				<?php if (isset($xpersonlite['skt-header-title']) && $xpersonlite['skt-header-title'] != '') { ?>
-					<h1><?php echo wp_kses($xpersonlite['skt-header-title'], array('span' => array())); ?></h1>
 				<?php } ?>
 				<?php if (isset($xpersonlite['skt-header-text']) && $xpersonlite['skt-header-text'] != '') { ?>
 					<div class="intro-header-text">

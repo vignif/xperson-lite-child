@@ -9,8 +9,7 @@ Version: 1.0.0
 Text Domain: xperson-lite-child
 */
 
-html,
-body {
+html, body {
     height: 100%;
 }
 
@@ -67,8 +66,7 @@ blockquote>p {
     font-style: oblique;
 }
 
-.navbar-custom .navbar-nav>li>a:hover,
-.navbar-custom .navbar-nav>li>a:focus {
+.navbar-custom .navbar-nav>li>a:hover, .navbar-custom .navbar-nav>li>a:focus {
     font-style: oblique;
     color: black !important;
 }
@@ -144,17 +142,16 @@ footer.footer-wrapper a {
     /*firefox*/
 }
 
-
 }
+
 #home::before {
     height: -moz-available;
     /* WebKit-based browsers will ignore this. */
-    
     height: -webkit-fill-available;
     /* Mozilla-based browsers will ignore this. */
-    
     height: fill-available;
 }
+
 #content {
     max-width: -webkit-fill-available;
 }
@@ -167,44 +164,59 @@ footer.footer-wrapper a {
   transition: visibility 0 linear .75s;
 
 } */
+
 @media (max-width: 992px) {
     .resume .timeline>li {
         border-bottom: unset;
     }
 }
+
 .timeline-panel {
     visibility: visible !important;
 }
+
 .timeline-content::after {
     border: unset !important;
 }
+
 .timeline>li:hover .timeline-content i {
     /* border-right: 5px inset #009387; */
-    
     color: #009387;
 }
 
 /* .timeline>li:hover .timeline-content p{
   font-style: oblique;
 } */
+
 .timeline>li:hover .timeline-content>.timeline-heading>h3 {
     text-decoration: underline;
 }
+
 .timeline-body>p {
     margin-bottom: 0px;
 }
+
 .page-template-full-width .content-area {
     width: 100%;
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
+
 .page-template-full-width .site {
     margin: 0px;
 }
-.blog-post-wrapper,
-.widget {
+
+.blog-post-wrapper, .widget {
     margin-bottom: 30px;
     border: 2px solid black;
     border-radius: 0.5%;
+}
+
+.intro-sub {
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
 }
